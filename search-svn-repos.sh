@@ -43,8 +43,6 @@ for REPO_DIR in $DIRS; do
 
         if [[ ! -z $CONTENT ]]; then
                 echo "--- ${FILE}"
-                # grep -Ev  to use expression AND discard matches
-                # grep "^svn: " match lines beginning with that
                 echo $CONTENT
         fi
 
